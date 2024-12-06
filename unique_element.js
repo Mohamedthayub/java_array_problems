@@ -16,5 +16,6 @@ function test(arr,k){
     }
     
 }
-console.log(test([6,2,5,5,2,2,6,6],3))
+console.log(test([6,2,3,3,9,5,5,2,2,6,6],3));
+
 
