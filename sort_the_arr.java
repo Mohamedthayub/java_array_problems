@@ -12,7 +12,7 @@ public class sort_the_arr{
             }
         }
         for(int num : arr){
-            System.out.println(num + " ");
+            System.out.println(num + "");
         }
     }
 }
