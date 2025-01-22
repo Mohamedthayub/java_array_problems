@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class ImmediateSmallerElement {
     static int[] immediate_smaller(int arr[]) {
         for (int i = 0; i < arr.length - 1; i++) { // Prevent ArrayIndexOutOfBounds
@@ -12,7 +11,6 @@ public class ImmediateSmallerElement {
         arr[arr.length - 1] = -1; // Last element always becomes -1
         return arr;
     }
-
     public static void main(String[] args) {
         int[] arr2 = {4, 2, 1, 5, 3};
         System.out.println(Arrays.toString(immediate_smaller(arr2)));
